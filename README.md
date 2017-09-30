@@ -6,7 +6,7 @@ Simple implementation of the hangman game using TDD
   - Should pick a random word from the dictionary at
     =/usr/share/dict/words= (sudo apt-get install
     dictionaries-common if you don't have this file). The word
-    should have atleast 8 characters.
+    should have atleast 6 characters.
   - The user should be prompted to enter a letter. At each turn the
     following information should be presented.
     1. The word masked with _ for unguessed letters and the actual
