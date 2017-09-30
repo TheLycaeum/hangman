@@ -19,7 +19,7 @@ def test_choose_word():
 def test_choose_word_no_valid_words():
     # First create a dummy file
     f = open("/tmp/fake_dict.txt", "w")
-    for i in ["cat", "dog", "bull", "mouse", "personage's"]:
+    for i in ["cat", "dog", "bull", "mouse", "personage's", "Barclays"]:
         f.write(i+"\n")
     f.close()
 
