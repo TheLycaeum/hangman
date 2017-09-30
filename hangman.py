@@ -6,7 +6,7 @@ def choose_word(fname):
     f = open(fname)
     for i in f:
         i = i.strip()
-        if i.isalpha() and len(i) >= 6:
+        if i.islower() and i.isalpha() and len(i) >= 6:
             good_words.append(i)
     f.close()
     
